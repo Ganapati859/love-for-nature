@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #eef0e6;
+    color: #49c1f8;
+    font-variant-emoji: text;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(29, 148, 228);
+    text-decoration: none;
+}
+
+main {
+    background-image: url(hi.jpg);
+    background-size: cover;
+    max-width: 1000%;
+    padding: 200px;
+    background-repeat: no-repeat; 
+   
+}
+
+h1 {
+    text-align: center;
+
+    text-decoration: rgb(246, 247, 245);
+
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: backgroung 0.5em;
+}
+
+.product {
+    background: white;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    transition: backgroung 0.5em;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+button {
+    background: #28a745;
+    color: rgb(238, 241, 243);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: rgb(247, 229, 229);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
